@@ -1,6 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
-import PopupDialog from 'react-native-popup-dialog';
+import { StyleSheet, Text, View} from 'react-native';
 
 export default class App extends React.Component {
   render() {
@@ -9,13 +8,6 @@ export default class App extends React.Component {
         <Text>Open up src/App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
-        <Button title="Show Dialog" onPress={()=>this.popupDialog.show()}></Button>
-        <PopupDialog ref={(popupDialog) => { this.popupDialog = popupDialog; }}>
-          <View>
-            <Text>Hello</Text>
-          </View>
-        </PopupDialog>
-
       </View>
     );
   }
