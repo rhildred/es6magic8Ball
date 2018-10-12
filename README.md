@@ -1,4 +1,4 @@
-<a href="https://github.com/rhildred/react-native-dialog-popup-example/" target="_blank">react-native-dialog-popup-example</a>
+# <a href="https://github.com/rhildred/es6magic8Ball/" target="_blank">Magic 8 ball</a>
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
